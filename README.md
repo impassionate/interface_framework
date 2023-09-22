@@ -31,7 +31,8 @@ This program provides a graphical user interface (GUI) for users to input Python
 1. The user is presented with a GUI where they can input the Python problem and the corresponding AI solution.
 2. A dropdown menu allows the user to choose the aspect(s) for assessment—like Correctness, Efficiency, or All aspects.
 3. On submission, the program fetches the corresponding assessment code from specified GitHub repositories based on the selected aspects.
-4. The fetched code is then executed dynamically to assess the user's solution, and the results are displayed back on the GUI.
+4. The fetched code is then executed dynamically to assess the user's solution, and the results are displayed back on the GUI. <br />
+note that by the first time user runs the program, a file called 'aspects' will be generated to store all the aspects as well as the url for assessment code.
 
 ## Workflow
 
