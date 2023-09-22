@@ -58,4 +58,4 @@ Adding a new assessment aspect involves the following steps:
 2. Update the `url_map` dictionary in the `fetch_code_from_github()` function to include the URL of the new GitHub repository.
 3. Add the new aspect to the `aspect_options` list to make it available in the dropdown menu.
 
-By following these steps, the program can easily be extended to support new assessment aspects.
+By following these steps, the program can easily be extended to support new assessment aspects. (An updated to the code will allow user to input the name of new aspect as well as the new url and will automatically add it to the program)
